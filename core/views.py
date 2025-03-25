@@ -9,4 +9,5 @@ def hellotime(request):
 def screenprint(request):
     return render(request, "core/screenprint.html")
 
-# Create your views here.
+def blackbox(request):
+    return render(request, "core/Blackbox.html")

@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,26 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Daniel Black Box Investigation</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{% static 'core/style.css' %}">
   </head>
   <body>
 
-<nav>
-  <ul>
-    <li><a>screenprinting project</a></li>
-    <li></li>
-    <li></li>
-  </li>
-</nav>
 
-
-
-
-<h1>Black Box Investigation</h1> 
+<h1>Black Box Investigation</h1>
 Welcome to Daniel Website
 <p>In New Media and Tech, there is a black box called “The Mystery Black Box.” The mystery black box is a model where you cannot see what’s inside of it. You pour water through the funnel at the top and water comes out through a tube at the bottom. You have to guess what’s inside the box based on what happens when the water is poured. Your goal is to configure an idea of what’s in the box and create a model with the idea.</p>
 
-<img src="IMG_3821.JPG" alt=" Original Black Box" width="500">
+<img src="{% static 'core/IMG_3821.JPG' %}" alt="Original Black Box" width="500">
+
 
 
 <h3>Claim</h3>
@@ -32,15 +25,14 @@ Welcome to Daniel Website
 
 
 <h3>Evidence</h3>
-<p>The black mystery box is a box that changes the amount of water that is released and then poured. Our observations about that black box was that it felt like the water was moving in the black box. We tried listening and using a heat scanner to determine how the black box worked.  We heard the water moving from the top to the bottom of the box.  We observed the black box with a heat scanner when we poured hot water and we saw the water moving but not clearly. 
+<p>The black mystery box is a box that changes the amount of water that is released and then poured. Our observations about that black box was that it felt like the water was moving in the black box. We tried listening and using a heat scanner to determine how the black box worked.  We heard the water moving from the top to the bottom of the box.  We observed the black box with a heat scanner when we poured hot water and we saw the water moving but not clearly.
 
 Our black box we decided to try a 2 siphon bucket, which we built.
-        
+
 We tested our black box by pouring an amount of water to see if we would get a different amount of water from the black box. When we did it we mostly got the same amount. Our black box did not have the same data as the original black box you can see the difference in data at the bottom
 
 <p>
-
-<img src="Danielrealbox.JPG" alt="A real life model of our Black Box" width="500">
+<img src="{% static 'core/Danielrealbox.JPG' %}" alt="A real life model of our Black Box" width="500">
 
 
 <h3>Reason Part 1</h3>
@@ -50,7 +42,7 @@ We tested our black box by pouring an amount of water to see if we would get a d
 
 
 <h3>Reason Part 2</h3>
-<p>My claim that the original black box does not use a 2 bucket siphon is true because if you look at the data between our black box and the original you can see a difference. For example, in the original black box the water output difference was huge for each trial while in my blackbox the output was similar.   
+<p>My claim that the original black box does not use a 2 bucket siphon is true because if you look at the data between our black box and the original you can see a difference. For example, in the original black box the water output difference was huge for each trial while in my blackbox the output was similar.
 
 <p>
 
@@ -59,17 +51,18 @@ We tested our black box by pouring an amount of water to see if we would get a d
 
 <p>
 
-<img src="Danielsblackbox3d.png" alt="This is My Black Box Model in Maya 2025 Rendering." width="450" height="300">
+<img src="{% static 'core/Danielsblackbox3d.png' %}" alt="This is My Black Box Model in Maya 2025 Rendering." width="450" height="300">
+
 
 <h3>3D Modeling, Animation, and Augmented Reality</h3>
 
-<p>I created my 3D model of my black box in maya. First I started by making the box where I would be putting everything in. Then I made my 2 buckets for the 2 bucket siphon and made it see thru. After that I made the tudes and connected them to the buckets. I made the funnel and connected it to the top of the box and arranged everything.  Lastly I made the animation by using the animation function in maya. 
+<p>I created my 3D model of my black box in maya. First I started by making the box where I would be putting everything in. Then I made my 2 buckets for the 2 bucket siphon and made it see thru. After that I made the tudes and connected them to the buckets. I made the funnel and connected it to the top of the box and arranged everything.  Lastly I made the animation by using the animation function in maya.
 
 <P>
 
 <h3>Personal Reflection</h3>
 
-<p>This project was long and interesting. During the projects I worked with my teammates by helping them, and they also helped me.  I learned a lot about coding through the pictionary. My favorite pictionary was the one about sunglasses. What I enjoyed the most was doing the animations. What I struggled with was the modeling of certain things like the funnel. What I could do better in the next project is being more prepared for the project and paying attention. 
+<p>This project was long and interesting. During the projects I worked with my teammates by helping them, and they also helped me.  I learned a lot about coding through the pictionary. My favorite pictionary was the one about sunglasses. What I enjoyed the most was doing the animations. What I struggled with was the modeling of certain things like the funnel. What I could do better in the next project is being more prepared for the project and paying attention.
 
 <P>
 
@@ -112,7 +105,7 @@ We tested our black box by pouring an amount of water to see if we would get a d
     		<td>1000</td>
     		<td>1539</td>
          </tr>
-    
+
           <tr>
     		<td>6</td>
     		<td>1000</td>
